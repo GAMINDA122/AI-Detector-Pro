@@ -1,0 +1,305 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "google.generativeai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "google.generativeai",
+        "description": "google.generativeai",
+        "detail": "google.generativeai",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "textstat",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textstat",
+        "description": "textstat",
+        "detail": "textstat",
+        "documentation": {}
+    },
+    {
+        "label": "SpellChecker",
+        "importPath": "spellchecker",
+        "description": "spellchecker",
+        "isExtraImport": true,
+        "detail": "spellchecker",
+        "documentation": {}
+    },
+    {
+        "label": "language_tool_python",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "language_tool_python",
+        "description": "language_tool_python",
+        "detail": "language_tool_python",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "docx",
+        "description": "docx",
+        "isExtraImport": true,
+        "detail": "docx",
+        "documentation": {}
+    },
+    {
+        "label": "mammoth",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mammoth",
+        "description": "mammoth",
+        "detail": "mammoth",
+        "documentation": {}
+    },
+    {
+        "label": "fitz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fitz",
+        "description": "fitz",
+        "detail": "fitz",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "pytesseract",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytesseract",
+        "description": "pytesseract",
+        "detail": "pytesseract",
+        "documentation": {}
+    },
+    {
+        "label": "convert_from_path",
+        "importPath": "pdf2image",
+        "description": "pdf2image",
+        "isExtraImport": true,
+        "detail": "pdf2image",
+        "documentation": {}
+    },
+    {
+        "label": "AIDetector",
+        "kind": 6,
+        "importPath": "AI_Detector_Version_01.app",
+        "description": "AI_Detector_Version_01.app",
+        "peekOfCode": "class AIDetector:\n    def __init__(self):\n        self.model = model\n    # 1. Input & Preprocessing Functions\n    def normalize_text(self, text):\n        text = re.sub(r'\\s+', ' ', text.strip())\n        text = re.sub(r'[^\\w\\s.,!?;:\\'\\\"()-]', '', text)\n        return text\n    def tokenize_text(self, text):\n        sentences = nltk.sent_tokenize(text)",
+        "detail": "AI_Detector_Version_01.app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "AI_Detector_Version_01.app",
+        "description": "AI_Detector_Version_01.app",
+        "peekOfCode": "def index():\n    return render_template('index.html')\n@app.route('/analyze', methods=['POST'])\ndef analyze():\n    try:\n        data = request.get_json()\n        text = data.get('text', '')\n        content_type = data.get('content_type', 'general')\n        if not text or len(text.strip()) < 10:\n            return jsonify({'error': 'Please provide at least 10 characters of text to analyze'})",
+        "detail": "AI_Detector_Version_01.app",
+        "documentation": {}
+    },
+    {
+        "label": "analyze",
+        "kind": 2,
+        "importPath": "AI_Detector_Version_01.app",
+        "description": "AI_Detector_Version_01.app",
+        "peekOfCode": "def analyze():\n    try:\n        data = request.get_json()\n        text = data.get('text', '')\n        content_type = data.get('content_type', 'general')\n        if not text or len(text.strip()) < 10:\n            return jsonify({'error': 'Please provide at least 10 characters of text to analyze'})\n        result = detector.analyze_text(text, content_type)\n        return jsonify(result)\n    except Exception as e:",
+        "detail": "AI_Detector_Version_01.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "AI_Detector_Version_01.app",
+        "description": "AI_Detector_Version_01.app",
+        "peekOfCode": "app = Flask(__name__)\n# Configure Gemini API\nAPI_KEY = os.getenv(\"API_KEY\")\ngenai.configure(api_key=API_KEY)\nmodel = genai.GenerativeModel(\"gemini-1.5-flash\")\n# Initialize tools\nspell_checker = SpellChecker()\ngrammar_tool = language_tool_python.LanguageTool('en-US')\nclass AIDetector:\n    def __init__(self):",
+        "detail": "AI_Detector_Version_01.app",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "AI_Detector_Version_01.app",
+        "description": "AI_Detector_Version_01.app",
+        "peekOfCode": "API_KEY = os.getenv(\"API_KEY\")\ngenai.configure(api_key=API_KEY)\nmodel = genai.GenerativeModel(\"gemini-1.5-flash\")\n# Initialize tools\nspell_checker = SpellChecker()\ngrammar_tool = language_tool_python.LanguageTool('en-US')\nclass AIDetector:\n    def __init__(self):\n        self.model = model\n    # 1. Input & Preprocessing Functions",
+        "detail": "AI_Detector_Version_01.app",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "AI_Detector_Version_01.app",
+        "description": "AI_Detector_Version_01.app",
+        "peekOfCode": "model = genai.GenerativeModel(\"gemini-1.5-flash\")\n# Initialize tools\nspell_checker = SpellChecker()\ngrammar_tool = language_tool_python.LanguageTool('en-US')\nclass AIDetector:\n    def __init__(self):\n        self.model = model\n    # 1. Input & Preprocessing Functions\n    def normalize_text(self, text):\n        text = re.sub(r'\\s+', ' ', text.strip())",
+        "detail": "AI_Detector_Version_01.app",
+        "documentation": {}
+    },
+    {
+        "label": "spell_checker",
+        "kind": 5,
+        "importPath": "AI_Detector_Version_01.app",
+        "description": "AI_Detector_Version_01.app",
+        "peekOfCode": "spell_checker = SpellChecker()\ngrammar_tool = language_tool_python.LanguageTool('en-US')\nclass AIDetector:\n    def __init__(self):\n        self.model = model\n    # 1. Input & Preprocessing Functions\n    def normalize_text(self, text):\n        text = re.sub(r'\\s+', ' ', text.strip())\n        text = re.sub(r'[^\\w\\s.,!?;:\\'\\\"()-]', '', text)\n        return text",
+        "detail": "AI_Detector_Version_01.app",
+        "documentation": {}
+    },
+    {
+        "label": "grammar_tool",
+        "kind": 5,
+        "importPath": "AI_Detector_Version_01.app",
+        "description": "AI_Detector_Version_01.app",
+        "peekOfCode": "grammar_tool = language_tool_python.LanguageTool('en-US')\nclass AIDetector:\n    def __init__(self):\n        self.model = model\n    # 1. Input & Preprocessing Functions\n    def normalize_text(self, text):\n        text = re.sub(r'\\s+', ' ', text.strip())\n        text = re.sub(r'[^\\w\\s.,!?;:\\'\\\"()-]', '', text)\n        return text\n    def tokenize_text(self, text):",
+        "detail": "AI_Detector_Version_01.app",
+        "documentation": {}
+    },
+    {
+        "label": "detector",
+        "kind": 5,
+        "importPath": "AI_Detector_Version_01.app",
+        "description": "AI_Detector_Version_01.app",
+        "peekOfCode": "detector = AIDetector()\n@app.route('/')\ndef index():\n    return render_template('index.html')\n@app.route('/analyze', methods=['POST'])\ndef analyze():\n    try:\n        data = request.get_json()\n        text = data.get('text', '')\n        content_type = data.get('content_type', 'general')",
+        "detail": "AI_Detector_Version_01.app",
+        "documentation": {}
+    }
+]
